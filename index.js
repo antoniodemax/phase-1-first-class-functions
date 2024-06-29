@@ -8,10 +8,10 @@ function receivesAFunction(callback) {
 }
 
 function returnsANamedFunction() {
-    //Define a named function
+
     function namedFunction() {
         console.log("I am a named function");
-        //More functionality can be added here
+        
     }
     return namedFunction; 
 }
